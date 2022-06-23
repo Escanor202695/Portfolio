@@ -7,6 +7,7 @@ function Intro(props) {
       className="w-100 h-[40rem] md:h-96 relative bg-white bg-cover"
       style={{ backgroundImage: "url('/introbg.jpg')" }}
     >
+    
       <div className="w-100 h-screen p-5 md:p-0 bg-gradient-to-b from-[rgba(0,0,0,0.8)] to-[rgba(0,0,0,0.05)]">
         <div className="flex justify-end md:hidden">
           <MenuAlt3Icon className="w-12 h-12 text-theme" />
