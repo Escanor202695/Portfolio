@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --theme-color: rgb(108, 213, 108);
+}
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main {
+  padding: 0px;
+}
+
+.swiper {
+  position: relative !important;
+  width: 60%;
+  height: 20rem;
+  transform: scale(1);
+  border: 1px solid red;
+  scroll-behavior:smooth;
+}
+
+.swiper-slide {
+  height: auto !important;
+  width: 40% !important;
+  justify-items: center;
+  position: relative;
+}
+
+.swiper-slide:hover {
+  border: 5px solid rgb(87, 198, 87);
+}
+
+.swiper-slide img {
+  margin: auto;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper {
+  margin-bottom: 100rem;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: rgb(86, 158, 86) !important;
+}
+
+.navbar div:hover::after{
+  width: 70%;
+}
+
+.navbar div::after {
+  content: "";
+  height: .2vw;
+  width:0;
+  position: absolute;
+  top:100%;
+  left: 0;
+  background-color: var(--theme-color);
+  transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+}
+
+.intro_content{
+  z-index: 1000 !important;
+}
