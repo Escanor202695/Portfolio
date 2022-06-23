@@ -1,8 +1,8 @@
 import AOS from "aos";
 import Head from "next/head";
 import React, { useEffect } from "react";
-import Work from "../Components/Work";
-import Intro from "../Components/Intro";
+import Work from "../components/Work";
+import Intro from "../components/Intro";
 import "aos/dist/aos.css";
 
 export default function Home() {
