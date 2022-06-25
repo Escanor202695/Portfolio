@@ -29,22 +29,31 @@ a {
 
 .swiper {
   position: relative !important;
-  width: 60%;
-  height: 20rem;
-  transform: scale(1);
-  border: 1px solid red;
+  width: 70%;
+  height: 26vw;
   scroll-behavior:smooth;
+  margin-bottom: 0 !important;
+  padding-top: 1rem !important;
+  margin-top: -2rem !important;
 }
 
-.swiper-slide {
-  height: auto !important;
-  width: 40% !important;
+.swiper-slide { 
+  height: 18rem !important;
+  width: 45% !important;
   justify-items: center;
   position: relative;
+  margin-bottom: 5rem;
+  border-radius:.75rem ;
+  overflow: hidden;
+  border: 3px solid transparent;
+  box-shadow: 0px 10px 20px rgba(148, 148, 148, 0.5);
+  transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
 }
 
 .swiper-slide:hover {
-  border: 5px solid rgb(87, 198, 87);
+  border: 3px solid rgb(87, 198, 87);
+  box-shadow: 0px 15px 25px rgba(148, 148, 148, 0.75);
+  transform: scale(1.025) !important;
 }
 
 .swiper-slide img {
@@ -62,21 +71,59 @@ a {
   background-color: rgb(86, 158, 86) !important;
 }
 
-.navbar div:hover::after{
+title:hover::after{
   width: 70%;
 }
+.nav {
+  position:relative !important;
+}
+.nav div{
+  cursor: pointer;
+  position: relative;
+}
 
-.navbar div::after {
+.nav div::after {
+  width: 0px !important;
+}
+
+.nav div:hover::after{
+  width: 70% !important;
+}
+
+.title::after {
+  height: .26rem !important;
+}
+
+.title::after,.nav div::after {
   content: "";
-  height: .2vw;
-  width:0;
+  height: .22rem;
+  width:70%;
   position: absolute;
-  top:100%;
   left: 0;
+  top:100%;
   background-color: var(--theme-color);
-  transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+  transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border-radius:100px;
 }
 
 .intro_content{
   z-index: 1000 !important;
+}
+
+
+@media screen and (max-width:768px) {
+  .swiper {
+    width: 100%;
+    height:20.5rem;
+    margin-top:0 !important;
+
+   
+  }
+
+  .swiper-slide {
+    width:67% !important;
+    height:43vw !important;
+    margin-bottom: 8rem;
+    margin-top: 3rem;
+  }
 }
