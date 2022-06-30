@@ -13,9 +13,35 @@ import {
   Pagination,
 } from "swiper";
 
+const work = [
+  {
+    src: "/amado.png",
+    link: "https://amado-ecommerce.netlify.app",
+  },
+  {
+    src: "/jevelin.png",
+    link: "https://burgerzilla.netlify.app",
+  },
+  {
+    src: "/razer.png",
+    link: "https://razor-clone-007.netlify.app",
+  },
+  {
+    src: "/lawncare.png",
+    link: "https://lawncare007.netlify.app",
+  },
+  {
+    src: "/disney.png",
+    link: "https://disney-plus-clone007.netlify.app",
+  },
+];
+
 const Work = () => {
   return (
-    <div className="w-100 flex flex-col justify-center items-center border-2 py-16">
+    <div
+      id="work"
+      className=" w-100 flex flex-col justify-center items-center py-14"
+    >
       <div
         className="title relative text-4xl font-semibold align-center md:mb-20"
         data-aos="zoom-in-right"
@@ -34,7 +60,7 @@ const Work = () => {
         centeredSlides={true}
         slidesPerView={"auto"}
         loop={true}
-        // navigation={true}
+        navigation={true}
         autoplay={{
           delay: 1500,
           disableOnInteraction: false,
@@ -54,51 +80,22 @@ const Work = () => {
         modules={[Keyboard, Autoplay, EffectCoverflow, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <a
-            href="https://amado-ecommerce.netlify.app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image src="/amado.png" layout="fill" alt="Image" />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a
-            href="https://burgerzilla.netlify.app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image src="/jevelin.png" layout="fill" alt="Image" />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a
-            href="https://razor-clone-007.netlify.app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image src="/razer.png" layout="fill" alt="Image" />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a
-            href="https://lawncare007.netlify.app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image src="/lawncare.png" layout="fill" alt="Image" />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a
-            href="https://disney-plus-clone007.netlify.app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image src="/disney.png" layout="fill" alt="Image" />
-          </a>
-        </SwiperSlide>
+        {work.map((w, key) => {
+          return (
+            <SwiperSlide key={key}>
+              <a href={w.link} target="_blank" rel="noopener noreferrer">
+                <Image
+                  src={w.src}
+                  layout="fill"
+                  alt="Image"
+                  priority
+                  blurDataURL="/disney.png"
+                  placeholder="blur"
+                />
+              </a>
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </div>
   );

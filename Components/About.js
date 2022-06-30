@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Img from "../Components/reusable/Img";
 
 function About(props) {
   return (
@@ -8,24 +8,21 @@ function About(props) {
         className="title relative text-4xl font-semibold align-center mb-[3rem] md:mb-20"
         data-aos="zoom-in-right"
         data-aos-duration="750"
+        data-aos-once="true"
       >
         About
       </div>
       <div
         className="flex flex-row justify-items-start items-center"
-        data-aos-delay="300"
         data-aos="zoom-in-right"
         data-aos-duration="750"
+        data-aos-once="true"
       >
-        <div className="relative w-[5rem] h-[5rem] rounded-full mr-5 overflow-hidden">
-          <Image
-            src="/profile.jpeg"
-            alt=""
-            width={20}
-            layout="fill"
-            blur="true"
-          />
-        </div>
+        
+        <Img
+          src="/profile.jpeg"
+          classes="relative w-[5rem] h-[5rem] rounded-full mr-5 overflow-hidden"
+        />
         <p className="text-3xl text-theme w-3/5 sm:w-6/7">
           Do something awesome with me!
         </p>

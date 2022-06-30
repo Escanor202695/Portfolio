@@ -6,10 +6,10 @@ function Intro(props) {
   return (
     <div className="relative">
       <div
-        className="w-100 h-[25rem] md:h-[50rem] bg-cover text-transparent blur-[1px]"
+        className="w-100 h-[30rem] md:h-[50rem] bg-cover text-transparent blur-[1px]"
         style={{ backgroundImage: "url('/introbg.jpg')" }}
       ></div>
-      <div className="w-[100vw] h-[25rem] md:h-[50rem] p-5 md:p-0 absolute top-0 left-0 bg-gradient-to-b from-[rgba(0,0,0,0.8)] to-[rgba(0,0,0,.1)]">
+      <div className="w-[100vw] h-[30rem] md:h-[50rem] p-5 md:p-0 absolute top-0 left-0 bg-gradient-to-b from-[rgba(0,0,0,0.8)] to-[rgba(0,0,0,.1)]">
         <div className="flex justify-end md:hidden cursor-pointer">
           <MenuAlt3Icon className="w-12 h-12 text-theme" />
         </div>
@@ -21,7 +21,7 @@ function Intro(props) {
           <div>Reviews</div>
           <div>Contact</div>
         </div>
-        <div className="flex flex-col h-[19rem] md:h-[39rem] justify-center items-center ">
+        <div className="flex flex-col h-[22rem] md:h-[39rem] justify-center items-center ">
           <div className="signature text-white z-20 mb-3 md:mb-10 text-5xl md:text-[5rem]">
             Sakib Chowdhury
           </div>

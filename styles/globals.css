@@ -27,103 +27,145 @@ a {
   padding: 0px;
 }
 
-.swiper {
+#work .swiper, #service .swiper {
   position: relative !important;
-  width: 70%;
+  width: 75%;
   height: 26vw;
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
   margin-bottom: 0 !important;
   padding-top: 1rem !important;
   margin-top: -2rem !important;
 }
 
-.swiper-slide { 
+#work .swiper-slide ,#service .swiper-slide{
   height: 18rem !important;
-  width: 45% !important;
+  width: 40% !important;
   justify-items: center;
   position: relative;
   margin-bottom: 5rem;
-  border-radius:.75rem ;
+  border-radius: 0.75rem;
   overflow: hidden;
   border: 3px solid transparent;
   box-shadow: 0px 10px 20px rgba(148, 148, 148, 0.5);
-  transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
 }
 
-.swiper-slide:hover {
+#work .swiper-slide-active:hover,#service .swiper-slide-active:hover {
   border: 3px solid rgb(87, 198, 87);
   box-shadow: 0px 15px 25px rgba(148, 148, 148, 0.75);
   transform: scale(1.025) !important;
 }
 
-.swiper-slide img {
+#work .swiper-slide img,
+#service .swiper-slide img  {
   margin: auto;
   display: block;
   width: 100%;
   height: 100%;
 }
 
-.mySwiper {
+#work .mySwiper,#service .mySwiper {
   margin-bottom: 100rem;
 }
 
-.swiper-pagination-bullet-active {
+#work .swiper-pagination-bullet-active,#service .swiper-pagination-bullet-active {
   background-color: rgb(86, 158, 86) !important;
 }
 
-title:hover::after{
+#work .swiper-button-next::after,
+#work .swiper-button-prev::after{
+  display: flex;
+  background-color: white !important;
+  height: 26rem !important;
+  width: 10rem !important;
+  align-items: center;
+  justify-content: center;
+  color: var(--theme-color);
+  padding: 0 2rem !important;
+}
+
+title:hover::after {
   width: 70%;
 }
 .nav {
-  position:relative !important;
+  position: relative !important;
 }
-.nav div{
+.nav div {
   cursor: pointer;
   position: relative;
 }
-
 .nav div::after {
   width: 0px !important;
 }
 
-.nav div:hover::after{
+.nav div:hover::after {
   width: 70% !important;
 }
 
 .title::after {
-  height: .26rem !important;
+  height: 0.26rem !important;
 }
 
-.title::after,.nav div::after {
+.title::after,
+.nav div::after {
   content: "";
-  height: .22rem;
-  width:70%;
+  height: 0.22rem;
+  width: 70%;
   position: absolute;
   left: 0;
-  top:100%;
+  top: 100%;
   background-color: var(--theme-color);
-  transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  border-radius:100px;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border-radius: 100px;
 }
 
-.intro_content{
+.intro_content {
   z-index: 1000 !important;
 }
 
+.score {
+  animation: expertize 1s cubic-bezier(0.175, 0.885, 0) !important;
+}
 
-@media screen and (max-width:768px) {
-  .swiper {
+.triangle{
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-left: 0;
+  border-right: 10px solid black;
+}
+
+@keyframes expertize {
+  0% {
+    width: 0 !important;
+  }
+  100% {
+    width: 70% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #work .swiper , #service .swiper {
     width: 100%;
-    height:20.5rem;
-    margin-top:0 !important;
-
-   
+    height: 20.5rem;
+    margin-top: 0 !important;
   }
 
-  .swiper-slide {
-    width:67% !important;
-    height:43vw !important;
+  #work .swiper-slide,#service .swiper-slide {
+    width: 67% !important;
+    height: 43vw !important;
     margin-bottom: 8rem;
     margin-top: 3rem;
   }
+  #work .swiper-button-next::after,
+  #work .swiper-button-prev::after{
+    display: none !important;
+  }
+  .service {
+    transition: all .4s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+  }
+  .service:hover{
+    transform:scale(1.05) !important;
+  }
+
 }
