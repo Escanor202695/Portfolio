@@ -2,35 +2,36 @@ import React from "react";
 import Img from "./Img";
 import { StarIcon } from "@heroicons/react/solid";
 
-function review({ name = "Sakib Chowdhury", position="start", review }) {
-  const bgColor = (position == "start")?"#000":"#000`";
-
+function review({ name, review }) {
   return (
-    <div
-      className={`w-100 rounded-md flex justify-${position}`}
-      data-aos={position=="start"?"zoom-in-right":"zoom-in-left"}
-      data-aos-duration="750"
-      data-aos-once="true"
-    >
-    <div className="triangle"></div>
-      <div className={`w-5/6 bg-[${bgColor}] p-5 rounded-md flex-end`}>
-        <div className="w-100 flex flex-row items-center space-x-2">
+      <div
+        data-aos="zoom-in-right"
+        data-aos-duration="750"
+        data-aos-once="true"
+        className="relative w-100 h-100 m-0 pb-[3.5rem] bg-[#dafdda] p-7 display flex flex-col
+        items-center rounded-md shadow-md"
+      >
+        <div className="absolute bottom-0 left-1/2 border-4 border-white rounded-full -translate-x-1/2 translate-y-1/2 flex flex-col items-center">
           <Img
             src="/profile.jpeg"
-            classes="relative w-[3rem] h-[3rem] rounded-full overflow-hidden shadow-sm shadow-theme"
+            classes="relative w-[5rem] h-[5rem] rounded-full overflow-hidden"
           />
-          <div className="text-xl text-white">{name}</div>
         </div>
-        <div className="flex mt-2">
+        <Img src="/quotation.png" classes="relative w-[8rem] h-[8rem] opacity-80" />
+
+        <div className="italic text-gray-700">
+          Sakib is the best developer in the world his sheer skill is necessary
+          to humankind that no one can denny.
+        </div>
+        <div className="flex mt-5">
           <StarIcon className="h-5 w-5 text-theme" />
           <StarIcon className="h-5 w-5 text-theme" />
           <StarIcon className="h-5 w-5 text-theme" />
           <StarIcon className="h-5 w-5 text-theme" />
           <StarIcon className="h-5 w-5 text-theme" />
         </div>
-        <div className="text-sm text-white mt-2 italic">{`"${review}"`}</div>     
+        <div className="font-bold mt-2">Sakib Chowdhury</div>
       </div>
-    </div>
   );
 }
 

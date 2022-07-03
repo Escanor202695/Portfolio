@@ -7,6 +7,7 @@ import About from "../Components/About";
 import Skills from "../Components/Skills";
 import Services from "../Components/Services";
 import Reviews from "../Components/Reviews";
+import Contact from "../Components/Contact";
 import "aos/dist/aos.css";
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
         <Work />
         <Services/>
         <Reviews/>
+        <Contact/>
       </main>
     </div>
   );

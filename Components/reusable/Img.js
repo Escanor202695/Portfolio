@@ -10,6 +10,7 @@ function Img({ src, classes }) {
         layout="fill"
         placeholder="blur"
         blurDataURL={src}
+        objectFit="cover"
         priority
       />
     </div>

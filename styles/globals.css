@@ -27,7 +27,7 @@ a {
   padding: 0px;
 }
 
-#work .swiper, #service .swiper {
+.swiper {
   position: relative !important;
   width: 75%;
   height: 26vw;
@@ -37,7 +37,7 @@ a {
   margin-top: -2rem !important;
 }
 
-#work .swiper-slide ,#service .swiper-slide{
+#work .swiper-slide ,#review .swiper-slide{
   height: 18rem !important;
   width: 40% !important;
   justify-items: center;
@@ -50,26 +50,26 @@ a {
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
 }
 
-#work .swiper-slide-active:hover,#service .swiper-slide-active:hover {
+#work .swiper-slide-active:hover{
   border: 3px solid rgb(87, 198, 87);
   box-shadow: 0px 15px 25px rgba(148, 148, 148, 0.75);
   transform: scale(1.025) !important;
 }
 
 #work .swiper-slide img,
-#service .swiper-slide img  {
+#review .swiper-slide img  {
   margin: auto;
   display: block;
   width: 100%;
   height: 100%;
 }
 
-#work .mySwiper,#service .mySwiper {
+#work .mySwiper,#review .mySwiper {
   margin-bottom: 100rem;
 }
 
-#work .swiper-pagination-bullet-active,#service .swiper-pagination-bullet-active {
-  background-color: rgb(86, 158, 86) !important;
+#work .swiper-pagination-bullet-active,#review .swiper-pagination-bullet-active {
+  background-color: var(--theme-color) !important;
 }
 
 #work .swiper-button-next::after,
@@ -145,27 +145,45 @@ title:hover::after {
 }
 
 @media screen and (max-width: 768px) {
-  #work .swiper , #service .swiper {
+  .mySwiper,.reviewSlide{
     width: 100%;
     height: 20.5rem;
     margin-top: 0 !important;
   }
 
-  #work .swiper-slide,#service .swiper-slide {
+  .reviewSlide {
+    height: 32rem;
+  }
+
+  #work .swiper-slide,#review .swiper-slide{
     width: 67% !important;
     height: 43vw !important;
     margin-bottom: 8rem;
     margin-top: 3rem;
   }
-  #work .swiper-button-next::after,
-  #work .swiper-button-prev::after{
-    display: none !important;
-  }
-  .service {
-    transition: all .4s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
-  }
-  .service:hover{
-    transform:scale(1.05) !important;
+
+  #review .swiper-slide{
+    height:22.5rem !important;
+    border-radius: 10px !important;
+    box-shadow: 0 0 0;
+    overflow: visible;
+    margin-bottom: 5rem;
   }
 
+  #work .swiper-button-next::after,#review .swiper-button-next::after,
+  #work .swiper-button-prev::after,#review .swiper-button-prev::after{
+    display: none !important;
+  }
+
+  .review {
+    transition: all .4s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+  }
+
+  .review {
+    transition: all .4s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+  }
+
+  .review:hover{
+    transform:scale(1.05) !important;
+  }
 }
