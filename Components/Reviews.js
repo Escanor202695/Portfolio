@@ -5,8 +5,6 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/bundle";
 import Review from "../Components/reusable/review";
-import { StarIcon } from "@heroicons/react/solid";
-import Img from "../Components/reusable/Img";
 import {
   Keyboard,
   Autoplay,

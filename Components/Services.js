@@ -51,7 +51,7 @@ const Services = () => {
   return (
     <div
       id="service"
-      className="relative w-100 flex flex-col justify-center items-center py-16"
+      className="relative w-100 flex flex-col justify-center items-center py-12 b-14"
     >
       <Img src="/skill-bg.jpg" />
       <div className="w-[100vw] h-full absolute bg-gradient-to-b from-[rgba(0,0,0,0.3)] to-[rgba(0,0,0,.3)]"></div>

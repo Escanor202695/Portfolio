@@ -15,23 +15,34 @@ function Contact(props) {
       >
         Contact
       </div>
-      <div className="flex space-x-2 mb-2">
-        <MailIcon className="w-6 h-6" />
-        <div>sakibchow202695@gmail.com</div>
+      <div
+        data-aos="zoom-in-right"
+        data-aos-delay="500"
+        data-aos-duration="750"
+        data-aos-once="true"
+      >
+        <div className="flex space-x-2 mb-2">
+          <MailIcon className="w-6 h-6" />
+          <div>sakibchow202695@gmail.com</div>
+        </div>
+        <div className="flex space-x-1 mb-2">
+          <WhatsAppIcon />
+          <div>+8801517310359</div>
+        </div>
+        <div className="flex space-x-1 mb-2">
+          <TelegramIcon />
+          <div>+8801517310359</div>
+        </div>
+        <div className="flex space-x-1">
+          <LinkedInIcon />
+          <div className="cursor-pointer">
+            {" "}
+            <a href="http://linkedin.com/in/sakib-chowdhury-363531138">
+              Sakib Chowdhury{" "}
+            </a>
+          </div>
+        </div>
       </div>
-      <div className="flex space-x-1 mb-2">
-        <WhatsAppIcon />
-        <div>+8801517310359</div>
-      </div>
-      <div className="flex space-x-1 mb-2">
-        <TelegramIcon />
-        <div>+8801517310359</div>
-      </div>
-      <div className="flex space-x-1">
-        <LinkedInIcon />
-        <div className="cursor-pointer"> <a href="http://linkedin.com/in/sakib-chowdhury-363531138">Sakib Chowdhury </a></div>
-      </div>
-      
     </div>
   );
 }

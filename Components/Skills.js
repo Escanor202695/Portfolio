@@ -9,7 +9,7 @@ function Skills(props) {
       <div className="w-[100vw] h-full absolute bg-gradient-to-b from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,.4)]"></div>
 
       <div
-        className="title relative mt-16 text-4xl font-semibold align-center mb-[3rem] md:mb-20"
+        className="title relative mt-12 text-4xl font-semibold align-center mb-[3rem] md:mb-20"
         data-aos="zoom-in-right"
         data-aos-duration="750"
         data-aos-once="true"
@@ -22,7 +22,7 @@ function Skills(props) {
       <Skill title="html/css" score="50" />
       <Skill title="html/css" score="60" />
       <Skill title="html/css" score="90" />
-      <div className="mb-16"></div>
+      <div className="mb-12"></div>
     </div>
   );
 }

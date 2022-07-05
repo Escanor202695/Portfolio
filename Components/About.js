@@ -1,9 +1,9 @@
 import React from "react";
 import Img from "../Components/reusable/Img";
 
-function About(props) {
+function About() {
   return (
-    <div className="text-black w-100 px-10 py-16 flex flex-col justify-center items-center">
+    <div className="about text-black w-100 px-10 py-16 flex flex-col justify-center items-center">
       <div
         className="title relative text-4xl font-semibold align-center mb-[3rem] md:mb-20"
         data-aos="zoom-in-right"
@@ -13,17 +13,16 @@ function About(props) {
         About
       </div>
       <div
-        className="flex flex-row justify-items-start items-center"
+        className="w-full flex flex-row justify-items-start items-center"
         data-aos="zoom-in-right"
         data-aos-duration="750"
         data-aos-once="true"
       >
-        
         <Img
-          src="/profile.jpeg"
-          classes="relative w-[5rem] h-[5rem] rounded-full mr-5 overflow-hidden"
+          src="/profile.jpeg" 
+          classes="relative w-[16vw] h-[16vw] mr-2 rounded-full overflow-hidden"
         />
-        <p className="text-3xl text-theme w-3/5 sm:w-6/7">
+        <p className="text-[7vw] text-theme w-[65vw] sm:w-6/7">
           Do something awesome with me!
         </p>
       </div>
