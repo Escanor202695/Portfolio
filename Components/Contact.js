@@ -6,7 +6,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 function Contact(props) {
   return (
-    <div className="w-100 py-16 px-16 bg-black text-white flex flex-col justify-center items-start">
+    <div className="contacts w-100 py-16 px-16 bg-black text-white flex flex-col justify-center items-start">
       <div
         className="title relative text-4xl font-semibold align-center mb-[2rem] md:mb-20"
         data-aos="zoom-in-right"

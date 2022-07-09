@@ -60,7 +60,7 @@ const feedbacks = [
 
 function Reviews(props) {
   return (
-    <div className="relative w-100 flex flex-col justify-center items-center pt-[4rem] pb-[3rem]">
+    <div className="feedbacks relative w-100 flex flex-col justify-center items-center pt-[4rem] pb-[3rem]">
       <div
         className="title relative text-black text-4xl font-semibold align-center md:mb-20"
         data-aos="zoom-in-right"

@@ -4,7 +4,7 @@ import Skill from "../Components/reusable/Skill.js";
 
 function Skills(props) {
   return (
-    <div className="w-100 flex flex-col items-center relative overflow-hidden text-white">
+    <div className="skills w-100 flex flex-col items-center relative overflow-hidden text-white">
       <Img src="/skill-bg.jpg" classes="w-full h-[50rem] absolute top-0 left-0"/>
       <div className="w-[100vw] h-full absolute bg-gradient-to-b from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,.4)]"></div>
 

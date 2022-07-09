@@ -20,7 +20,7 @@ function About() {
       >
         <Img
           src="/profile.jpeg" 
-          classes="relative w-[16vw] h-[16vw] mr-2 rounded-full overflow-hidden"
+          classes="relative w-[16vw] h-[16vw] mr-4 rounded-full overflow-hidden"
         />
         <p className="text-[7vw] text-theme w-[65vw] sm:w-6/7">
           Do something awesome with me!

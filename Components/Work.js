@@ -40,7 +40,7 @@ const Work = () => {
   return (
     <div
       id="work"
-      className=" w-100 flex flex-col justify-center items-center py-12"
+      className="works w-100 flex flex-col justify-center items-center py-12"
     >
       <div
         className="title relative text-4xl font-semibold align-center md:mb-20"
