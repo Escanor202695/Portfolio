@@ -151,7 +151,7 @@ title:hover::after {
   .mySwiper,
   .reviewSlide {
     width: 100%;
-    height: 18rem;
+    height:72vw;
     margin-top: 0 !important;
   }
 
@@ -162,11 +162,9 @@ title:hover::after {
   #work .swiper-slide,
   #review .swiper-slide {
     width: 67% !important;
-    height: 50vw !important;
-    height: 50vw !important;
+    height: 43vw !important;
     margin-bottom: 8rem;
     margin-top: 3rem;
-    border: 1px solid red;
   }
 
   .work .swiper-slide-active {
