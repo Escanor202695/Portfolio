@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --theme-color: rgb(108, 213, 108);
+  --theme-color: #4DDF6D;
 }
 
 html,
@@ -27,9 +27,9 @@ a {
   padding: 0px;
 }
 
-.swiper {
+.mySwiper,.reviewSlide {
   position: relative !important;
-  width: 75%;
+  width: 70%;
   height: 26vw;
   scroll-behavior: smooth;
   margin-bottom: 0 !important;
@@ -37,10 +37,15 @@ a {
   margin-top: -2rem !important;
 }
 
+.reviewSlide {
+  height:28vw;
+}
+
+
 #work .swiper-slide,
 #review .swiper-slide {
-  height: 18rem !important;
-  width: 40% !important;
+  height: 19.5vw !important;
+  width: 30vw !important;
   justify-items: center;
   position: relative;
   margin-bottom: 5rem;
@@ -49,6 +54,11 @@ a {
   border: 3px solid transparent;
   box-shadow: 0px 10px 20px rgba(148, 148, 148, 0.5);
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+}
+
+#review .swiper-slide {
+  overflow: visible !important;
+  border:none !important;
 }
 
 #work .swiper-slide-active:hover {
@@ -75,12 +85,17 @@ a {
   background-color: var(--theme-color) !important;
 }
 
-#work .swiper-button-next::after,
-#work .swiper-button-prev::after {
+#review .swiper-button-prev::after,#review .swiper-button-next::after{
+  transform: translateY(-10%) !important;
+}
+
+#work .swiper-button-next::after,#review .swiper-button-next::after,
+#work .swiper-button-prev::after,#review .swiper-button-prev::after {
   display: flex;
   background-color: white !important;
-  height: 26rem !important;
-  width: 10rem !important;
+  height: 30vw !important;
+  width: 40vw !important;
+  transform: translateY(-5%);
   align-items: center;
   justify-content: center;
   color: var(--theme-color);
@@ -93,15 +108,15 @@ title:hover::after {
 .nav {
   position: relative !important;
 }
-.nav div {
+.nav>div {
   cursor: pointer;
   position: relative;
 }
-.nav div::after {
+.nav>div::after {
   width: 0px !important;
 }
 
-.nav div:hover::after {
+.nav>div:hover::after {
   width: 70% !important;
 }
 
@@ -110,13 +125,13 @@ title:hover::after {
 }
 
 .title::after,
-.nav div::after {
+.nav>div::after {
   content: "";
-  height: 0.22rem;
+  height: .15vw;
   width: 70%;
   position: absolute;
   left: 0;
-  top: 100%;
+  top: 102%;
   background-color: var(--theme-color);
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   border-radius: 100px;

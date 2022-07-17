@@ -5,6 +5,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/bundle";
 import Review from "../Components/reusable/review";
+import Img from "../Components/reusable/Img";
 import {
   Keyboard,
   Autoplay,
@@ -60,9 +61,13 @@ const feedbacks = [
 
 function Reviews(props) {
   return (
-    <div className="feedbacks relative w-100 flex flex-col justify-center items-center pt-[4rem] pb-[3rem]">
+    <div
+      className="feedbacks relative w-100 md:h-[50vw] flex flex-col justify-center 
+    items-center py-[4rem] md:p-0"
+    >
       <div
-        className="title relative text-black text-4xl font-semibold align-center md:mb-20"
+        className="title relative text-black text-4xl md:text-5xl 2xl:text-7xl font-semibold
+         align-center md:mb-[7vw] drop-shadow-md shadow-black"
         data-aos="zoom-in-right"
         data-aos-duration="500"
         data-aos-once="true"

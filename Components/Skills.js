@@ -1,28 +1,35 @@
 import React from "react";
-import Img  from "../Components/reusable/Img";
 import Skill from "../Components/reusable/Skill.js";
 
 function Skills(props) {
   return (
-    <div className="skills w-100 flex flex-col items-center relative overflow-hidden text-white">
-      <Img src="/skill-bg.jpg" classes="w-full h-[50rem] absolute top-0 left-0"/>
+    <div className="skills w-100 flex flex-col items-center relative overflow-hidden text-white 
+    bg-gradient-to-tr to-[#62ddd7] from-[#111414]">
       <div className="w-[100vw] h-full absolute bg-gradient-to-b from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,.4)]"></div>
-
       <div
-        className="title relative mt-12 text-4xl font-semibold align-center mb-[3rem] md:mb-20"
+        className="title relative my-16 md:mt-[6vw] text-4xl md:text-5xl 2xl:text-6xl 
+        font-semibold align-center mb-[3rem] md:mb-[4.5vw] drop-shadow-md shadow-white"
         data-aos="zoom-in-right"
         data-aos-duration="750"
         data-aos-once="true"
       >
         Skills
       </div>
-      <Skill title="html/css" score="90" />
-      <Skill title="html/css" score="70" />
-      <Skill title="html/css" score="75" />
-      <Skill title="html/css" score="50" />
-      <Skill title="html/css" score="60" />
-      <Skill title="html/css" score="90" />
-      <div className="mb-12"></div>
+      <div className="flex flex-col md:flex-row md:mb-[3vw] px-[5vw] w-full justify-center">
+        <div className="yo flex-[.45]">
+          <Skill title="Html - CSS" score="90" />
+          <Skill title="JavaScript" score="85" />
+          <Skill title="Jquery" score="85" />
+          <Skill title="React / Next.js" score="90" />
+        </div>
+        <div className="flex-[.45]">
+          <Skill title="Bootstrap / Tailwind Css" score="90" />
+          <Skill title="Material UI / Antd pro" score="85" />
+          <Skill title="Git / Github" score="80" />
+          <Skill title="Figma / Adobe XD / Adobe AI" score="75" />
+        </div>
+      </div>
+      <div className="mb-12 md:mb-[3vw]"></div>
     </div>
   );
 }

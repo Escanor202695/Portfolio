@@ -40,10 +40,11 @@ const Work = () => {
   return (
     <div
       id="work"
-      className="works w-100 flex flex-col justify-center items-center py-12"
+      className="works w-100 flex flex-col justify-center items-center py-[4rem] md:py-[6vw]"
     >
       <div
-        className="title relative text-4xl font-semibold align-center md:mb-20"
+        className="title relative text-4xl md:text-5xl 2xl:text-7xl font-semibold align-center md:mb-[6vw]
+        drop-shadow-sm"
         data-aos="zoom-in-right"
         data-aos-duration="500"
         data-aos-once="true"
