@@ -3,7 +3,7 @@ import Img from "../Components/reusable/Img";
 
 function About() {
   return (
-    <div className="about text-black w-100 px-10 py-16 md:py-[6vw] md:pb-[7vw] flex flex-col justify-center items-center">
+    <div className="about text-black w-100 px-10 py-16 md:py-[6vw] md:pb-[8vw] flex flex-col justify-center items-center">
       <div
         className="title relative text-4xl md:text-5xl 2xl:text-7xl font-semibold align-center
          mb-[3rem] md:mb-[5vw] drop-shadow-sm"
@@ -14,10 +14,15 @@ function About() {
         About
       </div>
       <div className="flex md:px-[16vw]">
-        <div className="w-auto flex-1 md:flex items-center justify-end hidden mr-[7vw]">
+        <div
+          className="w-auto flex-1 md:flex items-center justify-end hidden mr-[7vw]"
+          data-aos="zoom-in-right"
+          data-aos-duration="750"
+          data-aos-once="true"
+        >
           <Img
-            src="/profile.png"
-            classes="relative h-[17vw] w-[18vw] overflow-hidden"
+            src="/profilenew2.png"
+            classes="relative h-[20vw] w-[20vw] overflow-hidden"
           />
         </div>
         <div className="md:w-1/2 md:pr-[15vw]">

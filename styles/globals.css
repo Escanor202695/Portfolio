@@ -3,13 +3,25 @@
 @tailwind utilities;
 
 :root {
-  --theme-color: #4DDF6D;
+  --theme-color: #4ddf6d;
+}
+
+@font-face {
+  font-family: "TitilliumWeb";
+  src: url("/assets/Titillium_Web/TitilliumWeb-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TitilliumWebSemiBold";
+  src: url("/assets/Titillium_Web/TitilliumWeb-SemiBold.ttf");
+  font-style: normal;
 }
 
 html,
 body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -21,15 +33,21 @@ a {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-family: TitilliumWeb,sans-serif;
+  
 }
 
+.title{
+  font-family:TitilliumWebSemiBold;
+}
 .main {
   padding: 0px;
 }
 
-.mySwiper,.reviewSlide {
+.mySwiper,
+.reviewSlide {
   position: relative !important;
-  width: 70%;
+  width: 65%;
   height: 26vw;
   scroll-behavior: smooth;
   margin-bottom: 0 !important;
@@ -38,9 +56,8 @@ a {
 }
 
 .reviewSlide {
-  height:28vw;
+  height: 28vw;
 }
-
 
 #work .swiper-slide,
 #review .swiper-slide {
@@ -58,7 +75,7 @@ a {
 
 #review .swiper-slide {
   overflow: visible !important;
-  border:none !important;
+  border: none !important;
 }
 
 #work .swiper-slide-active:hover {
@@ -85,12 +102,15 @@ a {
   background-color: var(--theme-color) !important;
 }
 
-#review .swiper-button-prev::after,#review .swiper-button-next::after{
+#review .swiper-button-prev::after,
+#review .swiper-button-next::after {
   transform: translateY(-10%) !important;
 }
 
-#work .swiper-button-next::after,#review .swiper-button-next::after,
-#work .swiper-button-prev::after,#review .swiper-button-prev::after {
+#work .swiper-button-next::after,
+#review .swiper-button-next::after,
+#work .swiper-button-prev::after,
+#review .swiper-button-prev::after {
   display: flex;
   background-color: white !important;
   height: 30vw !important;
@@ -108,15 +128,18 @@ title:hover::after {
 .nav {
   position: relative !important;
 }
-.nav>div {
+.nav div{
+  font-family:TitilliumWebSemiBold;
+}
+.nav > div {
   cursor: pointer;
   position: relative;
 }
-.nav>div::after {
+.nav > div::after {
   width: 0px !important;
 }
 
-.nav>div:hover::after {
+.nav > div:hover::after {
   width: 70% !important;
 }
 
@@ -125,9 +148,9 @@ title:hover::after {
 }
 
 .title::after,
-.nav>div::after {
+.nav > div::after {
   content: "";
-  height: .15vw;
+  height: 0.15vw;
   width: 70%;
   position: absolute;
   left: 0;
@@ -141,33 +164,13 @@ title:hover::after {
   z-index: 1000 !important;
 }
 
-.score {
-  animation: expertize 1s cubic-bezier(0.175, 0.885, 0) !important;
-}
-
-.triangle {
-  width: 0;
-  height: 0;
-  border: 5px solid transparent;
-  border-left: 0;
-  border-right: 10px solid black;
-}
-
-@keyframes expertize {
-  0% {
-    width: 0 !important;
-  }
-  100% {
-    width: 70% !important;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .mySwiper,
   .reviewSlide {
     width: 100%;
-    height:72vw;
+    height: 72vw;
     margin-top: 0 !important;
+  
   }
 
   .reviewSlide {
@@ -180,6 +183,7 @@ title:hover::after {
     height: 43vw !important;
     margin-bottom: 8rem;
     margin-top: 3rem;
+
   }
 
   .work .swiper-slide-active {
@@ -187,10 +191,11 @@ title:hover::after {
   }
 
   #review .swiper-slide {
-    height: 20.9rem !important;
+    height: 19rem !important;
     border-radius: 10px !important;
     box-shadow: 0 0 0;
     overflow: visible;
+
   }
 
   #work .swiper-button-next::after,

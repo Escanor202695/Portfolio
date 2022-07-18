@@ -17,45 +17,26 @@ import {
 const feedbacks = [
   {
     src: "/profile.jpeg",
-    name: "Sakib Chowdhury",
+    name: "Be Kind",
     feedback:
-      "Sakib is the best developer in the world willin to work with him a",
+      "Fantastic work by Sakib. He delivered a great portfolio website within 1 day. Will definitely work with him again!",
   },
   {
     src: "/profile.jpeg",
-    name: "Sakib Chowdhury",
+    name: "Jordi Garreta",
     feedback:
-      "Sakib is the best developer in the world willin to work with him a",
+      "Quick understanding the tasks, and quick and effective completing them",
   },
   {
     src: "/profile.jpeg",
-    name: "Sakib Chowdhury",
-    feedback:
-      "Sakib is the best developer in the world willin to work with him a",
+    name: "Pad Nara",
+    feedback: "He gave me good results. thanks",
   },
   {
     src: "/profile.jpeg",
-    name: "Sakib Chowdhury",
+    name: "Sharmad Hadi",
     feedback:
-      "Sakib is the best developer in the world willin to work with him a",
-  },
-  {
-    src: "/profile.jpeg",
-    name: "Sakib Chowdhury",
-    feedback:
-      "Sakib is the best developer in the world willin to work with him a",
-  },
-  {
-    src: "/profile.jpeg",
-    name: "Sakib Chowdhury",
-    feedback:
-      "Sakib is the best developer in the world willin to work with him a",
-  },
-  {
-    src: "/profile.jpeg",
-    name: "Sakib Chowdhury",
-    feedback:
-      "Sakib is the best developer in the world willin to work with him a",
+      "Sakib is a excellent dev, who works fast and has great skills. Needed a small page done, and the work he did was awesome. Would definately hire again, and he is one hundred percent recommended!",
   },
 ];
 
@@ -63,7 +44,7 @@ function Reviews(props) {
   return (
     <div
       className="feedbacks relative w-100 md:h-[50vw] flex flex-col justify-center 
-    items-center py-[4rem] md:p-0"
+    items-center py-[4rem] md:pt-[3vw] md:pb-[3vw]"
     >
       <div
         className="title relative text-black text-4xl md:text-5xl 2xl:text-7xl font-semibold
@@ -105,10 +86,10 @@ function Reviews(props) {
         className="reviewSlide"
         modules={[Keyboard, Autoplay, EffectCoverflow, Pagination, Navigation]}
       >
-        {feedbacks.map((w, key) => {
+        {feedbacks.map((f, key) => {
           return (
             <SwiperSlide key={key}>
-              <Review />
+              <Review name={f.name} src={f.src} feedback={f.feedback} />
             </SwiperSlide>
           );
         })}

@@ -11,7 +11,7 @@ const Services = () => {
   return (
     <div
       id="service"
-      className="services relative w-100 flex flex-col justify-center items-center py-[4rem] md:py-[5vw] bg-gradient-to-tr
+      className="services relative w-100 flex flex-col justify-center items-center py-[4rem] md:py-[6vw] bg-gradient-to-tr
        to-[#62ddd7] from-[#111414]"
     >
       <div

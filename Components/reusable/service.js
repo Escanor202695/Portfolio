@@ -12,42 +12,42 @@ import {
 const serviceList = [
   {
     title: "Frontend Development",
-    description: "I can create high-performing landing page for your business",
+    description: "Get high performing frontend for your website",
     icon: (
       <CodeIcon className="w-7 h-7 md:w-[4vw] md:h-[4vw] mb-[.75vw] md:text-theme stroke-[.12rem] md:md:stroke-[.1vw] drop-shadow-sm shadow-theme" />
     ),
   },
   {
     title: "UX/UI design",
-    description: "I can create high-performing landing page for your business",
+    description: "Get eye-catching and user-friendly UI for your website or app",
     icon: (
       <DeviceMobileIcon className="w-7 h-7 md:w-[4vw] md:h-[4vw] mb-[.75vw] md:text-theme stroke-[.12rem] md:md:stroke-[.1vw] drop-shadow-sm shadow-theme" />
     ),
   },
   {
     title: "Landing Page Design",
-    description: "I can create high-performing landing page for your business",
+    description: "Generate more traffic with a modern-looking landing page",
     icon: (
       <DesktopComputerIcon className="w-7 h-7 md:w-[4vw] md:h-[4vw] mb-[.75vw] md:text-theme stroke-[.12rem] md:md:stroke-[.1vw] drop-shadow-sm shadow-theme" />
     ),
   },
   {
     title: "Email Template Design",
-    description: "I can create high-performing landing page for your business",
+    description: "Get professional looking email template",
     icon: (
       <MailIcon className="w-7 h-7 md:w-[4vw] md:h-[4vw] mb-[.75vw] md:text-theme stroke-[.12rem] md:md:stroke-[.1vw] drop-shadow-sm shadow-theme" />
     ),
   },
   {
     title: "Portfolio Design",
-    description: "I can create high-performing landing page for your business",
+    description: "Attract High Paying Clients for your service with a great portfolio",
     icon: (
       <UserCircleIcon className="w-7 h-7 md:w-[4vw] md:h-[4vw] mb-[.75vw] md:text-theme stroke-[.12rem] md:md:stroke-[.1vw] drop-shadow-sm shadow-theme" />
     ),
   },
   {
     title: "Figma To HTML",
-    description: "I can create high-performing landing page for your business",
+    description: "Get pixel-perfect website from any design reference ",
     icon: (
       <PhotographIcon className="w-7 h-7 md:w-[4vw] md:h-[4vw] mb-[.75vw] md:text-theme stroke-[.12rem] md:md:stroke-[.1vw] drop-shadow-sm shadow-theme" />
     ),
