@@ -18,12 +18,12 @@ function Contact(props) {
       <div className="flex justify-between w-full">
         <div>
           <div
-            className="title relative text-4xl font-semibold align-center mb-[2rem] md:mb-[3vw]"
+            className="title w-[9vw] relative text-4xl font-semibold align-center mb-[2rem] md:mb-[3vw]"
             data-aos="zoom-in-right"
             data-aos-duration="750"
             data-aos-once="true"
           >
-            Contact
+            Contacts
           </div>
           <div
             data-aos="zoom-in-right"
@@ -65,7 +65,7 @@ function Contact(props) {
             Sakib Chowdhury
           </div>
           <div
-            className="mr-4 text-[#dae1d5]"
+            className="mr-4 text-white"
             data-aos="zoom-in-left"
             data-aos-duration="750"
             data-aos-once="true"
