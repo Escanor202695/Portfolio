@@ -13,12 +13,12 @@ function review({ name, src, feedback }) {
     >
       <div className="w-full h-full absolute left-0 top-0 bg-gradient-to-b from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,.4)] rounded-md"></div>
       <div
-        className="absolute bottom-0 left-1/2 border-[.2rem] border-white rounded-full -translate-x-1/2
+        className="absolute bottom-0 left-1/2 drop-shadow-sm rounded-full -translate-x-1/2
        translate-y-1/2 flex flex-col items-center"
       >
         <Img
           src={src}
-          classes="relative w-[5rem] h-[5rem] md:w-[5vw] md:h-[5vw] rounded-full overflow-hidden"
+          classes="relative w-[3.5rem] h-[3.5rem] md:w-[5vw] md:h-[5vw] rounded-full overflow-hidden"
         />
       </div>
       <div className='absolute top-0 left-20 -translate-x-1/2 -translate-y-1/3'>

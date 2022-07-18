@@ -9,12 +9,12 @@ function Contact(props) {
   return (
     <div
       className="contacts relative w-100 py-16 px-16 md:px-[10vw] md:py-[6vw] text-white flex flex-col justify-center items-start
-     bg-gradient-to-tr to-[#62ddd7] from-[#111414]"
+     bg-gradient-to-tr to-[#62ddd7] from-[#111414] z-10"
     >
-      <div className="absolute h-full w-full top-0 left-0 z-[1000]">
+      <div className="absolute h-full w-full top-0 left-0">
         <Img src="/contactbg.png" classes="relative w-full h-full" />
       </div>
-      <div className="w-[100vw] h-full absolute left-0 top-0 bg-gradient-to-r from-[rgba(0,0,0,.9)] to-[rgba(0,0,0,.4)]"></div>
+      <div className="w-[100vw] h-full absolute left-0 top-0 bg-gradient-to-r from-[rgba(0,0,0,.9)] to-[rgba(0,0,0,.4)] -z-10"></div>
       <div className="flex justify-between w-full">
         <div>
           <div
@@ -43,21 +43,36 @@ function Contact(props) {
               <TelegramIcon />
               <div>+8801517310359</div>
             </div>
-            <div className="flex space-x-2 md:space-x-4 ">
+            <div className="flex space-x-2 md:space-x-4 z-[1000]">
               <LinkedInIcon />
-              <div className="cursor-pointer">
-                {" "}
-                <a href="http://linkedin.com/in/sakib-chowdhury-363531138">
-                  Sakib Chowdhury{" "}
-                </a>
-              </div>
+              <a
+                href="http://linkedin.com/in/sakib-chowdhury-363531138"
+                className="cursor-pointer"
+              >
+                Sakib Chowdhury
+              </a>
             </div>
           </div>
         </div>
-        <div className="md:flex flex-col flex-1 justify-center items-end hidden z-[100]">
-
-          <div style={{fontFamily:'signature'}} className="text-white text-[5vw]">Sakib Chowdhury</div>
-          <div className="mr-4 text-[#dae1d5]">Frontend Developer & UX/UI designer</div>
+        <div className="md:flex flex-col flex-1 justify-center items-end hidden z-[1000]">
+          <div
+            style={{ fontFamily: "signature" }}
+            className="text-white text-[5vw]"
+            data-aos="zoom-in-left"
+            data-aos-duration="750"
+            data-aos-once="true"
+          >
+            Sakib Chowdhury
+          </div>
+          <div
+            className="mr-4 text-[#dae1d5]"
+            data-aos="zoom-in-left"
+            data-aos-duration="750"
+            data-aos-once="true"
+            data-aos-delay="500"
+          >
+            Frontend Developer & UX/UI designer
+          </div>
         </div>
       </div>
     </div>
