@@ -57,7 +57,7 @@ function Contact(props) {
         <div className="md:flex flex-col flex-1 justify-center items-end hidden z-[100]">
 
           <div style={{fontFamily:'signature'}} className="text-white text-[5vw]">Sakib Chowdhury</div>
-          <div className="mr-4 text-[#bae8be]">Frontend Developer & UX/UI designer</div>
+          <div className="mr-4 text-[#dae1d5]">Frontend Developer & UX/UI designer</div>
         </div>
       </div>
     </div>
