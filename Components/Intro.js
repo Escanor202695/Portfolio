@@ -49,10 +49,11 @@ function Intro(props) {
 
         <div className="flex flex-col flex-[.8] h-[22rem] md:h-auto justify-center items-center drop-shadow-md">
           <div
-            className="signature text-white z-20 mb-3 text-[10vw] md:text-[5vw] drop-shadow-md"
+            className="signature text-white z-20 mb-3 text-[15vw] md:text-[8vw] drop-shadow-md"
             data-aos="zoom-in-right"
             data-aos-duration="750"
             data-aos-once="true"
+            style={{fontFamily:"Signature"}}
           >
             Sakib Chowdhury
           </div>
@@ -61,7 +62,7 @@ function Intro(props) {
             w-[25rem]flex justify-center drop-shadow-md"
             data-aos="zoom-in-right"
             data-aos-duration="750"
-            data-aos-delay="250"
+            data-aos-delay="500"
             data-aos-once="true"
           >
             {" "}

@@ -1,11 +1,9 @@
-import Image from "next/image";
-import React, { useRef, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/bundle";
 import Service from "../Components/reusable/service";
+import Img from "../Components/reusable/Img";
 
 const Services = () => {
   return (
@@ -14,8 +12,13 @@ const Services = () => {
       className="services relative w-100 flex flex-col justify-center items-center py-[4rem] md:py-[6vw] bg-gradient-to-tr
        to-[#62ddd7] from-[#111414]"
     >
+      <div className="absolute h-full w-full top-0 left-0">
+        <Img src="/abstractlarge.png" classes="hidden md:flex relative w-full h-full" />
+        <Img src="/abstractbgmobile.png" classes="md:hidden relative w-full h-full z-[100]"/>
+      </div>
+    
       <div
-        className="w-[100vw] h-full absolute top-0 left-0 bg-gradient-to-b 
+        className="w-[100vw] h-full absolute top-0 left-0 bg-gradient-to-r 
       from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,.4)]"
       ></div>
       <div

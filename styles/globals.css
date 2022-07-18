@@ -17,11 +17,16 @@
   src: url("/assets/Titillium_Web/TitilliumWeb-SemiBold.ttf");
   font-style: normal;
 }
+@font-face {
+  font-family: "Signature";
+  src: url("/assets/stickwithu/Stickwithu Demo.ttf");
+  font-style: normal;
+}
 
 html,
 body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -33,12 +38,11 @@ a {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: TitilliumWeb,sans-serif;
-  
+  font-family: TitilliumWeb, sans-serif;
 }
 
-.title{
-  font-family:TitilliumWebSemiBold;
+.title {
+  font-family: TitilliumWebSemiBold;
 }
 .main {
   padding: 0px;
@@ -56,7 +60,8 @@ a {
 }
 
 .reviewSlide {
-  height: 28vw;
+  padding-top:4rem !important ;
+  height: 31vw !important;
 }
 
 #work .swiper-slide,
@@ -78,8 +83,10 @@ a {
   border: none !important;
 }
 
-#work .swiper-slide-active:hover {
+#work .swiper-slide-active {
   border: 3px solid rgb(87, 198, 87);
+}
+#work .swiper-slide-active:hover {
   box-shadow: 0px 15px 25px rgba(148, 148, 148, 0.75);
   transform: scale(1.025) !important;
 }
@@ -128,8 +135,8 @@ title:hover::after {
 .nav {
   position: relative !important;
 }
-.nav div{
-  font-family:TitilliumWebSemiBold;
+.nav div {
+  font-family: TitilliumWebSemiBold;
 }
 .nav > div {
   cursor: pointer;
@@ -170,11 +177,11 @@ title:hover::after {
     width: 100%;
     height: 72vw;
     margin-top: 0 !important;
-  
   }
 
   .reviewSlide {
-    height: 30rem;
+    padding-top: 2rem !important;
+    height: 30rem !important;
   }
 
   #work .swiper-slide,
@@ -183,7 +190,6 @@ title:hover::after {
     height: 43vw !important;
     margin-bottom: 8rem;
     margin-top: 3rem;
-
   }
 
   .work .swiper-slide-active {
@@ -195,7 +201,6 @@ title:hover::after {
     border-radius: 10px !important;
     box-shadow: 0 0 0;
     overflow: visible;
-
   }
 
   #work .swiper-button-next::after,

@@ -29,11 +29,6 @@ const feedbacks = [
   },
   {
     src: "/profile.jpeg",
-    name: "Pad Nara",
-    feedback: "He gave me good results. thanks",
-  },
-  {
-    src: "/profile.jpeg",
     name: "Sharmad Hadi",
     feedback:
       "Sakib is a excellent dev, who works fast and has great skills. Needed a small page done, and the work he did was awesome. Would definately hire again, and he is one hundred percent recommended!",
@@ -44,11 +39,11 @@ function Reviews(props) {
   return (
     <div
       className="feedbacks relative w-100 md:h-[50vw] flex flex-col justify-center 
-    items-center py-[4rem] md:pt-[3vw] md:pb-[3vw]"
+    items-center py-[4rem] pb-[3.5rem] md:pt-[3vw] md:pb-[3vw]"
     >
       <div
         className="title relative text-black text-4xl md:text-5xl 2xl:text-7xl font-semibold
-         align-center md:mb-[7vw] drop-shadow-md shadow-black"
+         align-center md:mb-[5vw] drop-shadow-md shadow-black"
         data-aos="zoom-in-right"
         data-aos-duration="500"
         data-aos-once="true"
