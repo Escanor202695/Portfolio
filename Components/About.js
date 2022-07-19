@@ -6,7 +6,7 @@ function About() {
     <div className="about text-black w-100 px-10 py-16 md:py-[6vw] md:pb-[8vw] flex flex-col justify-center items-center">
       <div
         className="title relative text-4xl md:text-5xl 2xl:text-7xl font-semibold align-center
-         mb-[3rem] md:mb-[5vw] drop-shadow-sm"
+         mb-[3rem] md:mb-[5vw] drop-shadow-md"
         data-aos="zoom-in-right"
         data-aos-duration="750"
         data-aos-once="true"

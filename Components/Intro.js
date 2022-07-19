@@ -53,7 +53,7 @@ function Intro(props) {
             data-aos="zoom-in-right"
             data-aos-duration="750"
             data-aos-once="true"
-            style={{fontFamily:"Signature"}}
+            style={{ fontFamily: "Signature" }}
           >
             Sakib Chowdhury
           </div>

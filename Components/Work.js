@@ -44,7 +44,7 @@ const Work = () => {
     >
       <div
         className="title relative text-4xl md:text-5xl 2xl:text-7xl font-semibold align-center md:mb-[6vw]
-        drop-shadow-sm"
+        drop-shadow-md"
         data-aos="zoom-in-right"
         data-aos-duration="500"
         data-aos-once="true"

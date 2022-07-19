@@ -86,6 +86,7 @@ a {
 #work .swiper-slide-active {
   border: 3px solid rgb(87, 198, 87);
 }
+
 #work .swiper-slide-active:hover {
   box-shadow: 0px 15px 25px rgba(148, 148, 148, 0.75);
   transform: scale(1.025) !important;
@@ -190,11 +191,9 @@ title:hover::after {
     height: 43vw !important;
     margin-bottom: 8rem;
     margin-top: 3rem;
+    border-radius:.5rem !important;
   }
 
-  .work .swiper-slide-active {
-    border: 3px solid var(--theme-color) !important;
-  }
 
   #review .swiper-slide {
     height: 19rem !important;

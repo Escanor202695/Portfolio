@@ -18,7 +18,7 @@ function Contact(props) {
       <div className="flex justify-between w-full">
         <div>
           <div
-            className="title w-[9vw] relative text-4xl font-semibold align-center mb-[2rem] md:mb-[3vw]"
+            className="title  w-[8rem] md:w-[9vw] relative text-4xl font-semibold align-center mb-[2rem] md:mb-[3vw]"
             data-aos="zoom-in-right"
             data-aos-duration="750"
             data-aos-once="true"

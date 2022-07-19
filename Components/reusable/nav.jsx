@@ -66,7 +66,7 @@ function nav({ section, handleMenu }) {
         <div className="mr-2 md:mr-[.3vw] md:hidden xl:inline-block">
           {navItem.icon}
         </div>
-        <div className="md:text-[1.2vw]">{navItem.section}</div>
+        <div className="md:text-[1.2vw] tracking-wide">{navItem.section}</div>
       </div>
     </ScrollIntoView>
   );
