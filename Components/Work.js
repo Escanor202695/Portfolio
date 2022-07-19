@@ -92,6 +92,7 @@ const Work = () => {
                   priority
                   blurDataURL="/disney.png"
                   placeholder="blur"
+                  className="md:rounded-md"
                 />
               </a>
             </SwiperSlide>
