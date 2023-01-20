@@ -93,10 +93,10 @@ const Work = () => {
                   src={w.src}
                   layout="fill"
                   alt="Image"
-                  priority
                   blurDataURL="/disney.webp"
                   placeholder="blur"
                   className="md:rounded-md"
+                  loading="lazy"
                 />
               </a>
             </SwiperSlide>

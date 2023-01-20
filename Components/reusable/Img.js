@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-function Img({ src, classes }) {
+function Img({ src, classes,priority }) {
   return (
     <div className={classes}>
       <Image
@@ -11,7 +11,7 @@ function Img({ src, classes }) {
         placeholder="blur"
         blurDataURL={src}
         objectFit="cover"
-        priority
+        loading="lazy"
       />
     </div>
   );

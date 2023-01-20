@@ -1,5 +1,5 @@
 {
-  "name": "air-bnb",
+  "name": "Sakib-Chowdhury",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,6 +19,7 @@
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-scroll-into-view": "^1.12.0",
+    "sharp": "^0.31.3",
     "swiper": "^8.2.4"
   },
   "devDependencies": {
