@@ -13,8 +13,8 @@ const Services = () => {
        to-[#62ddd7] from-[#111414]"
     >
       <div className="absolute h-full w-full top-0 left-0">
-        <Img src="/abstractlarge.png" classes="hidden md:flex relative w-full h-full" />
-        <Img src="/abstractbgmobile.png" classes="md:hidden relative w-full h-full z-[100]"/>
+        <Img src="/abstractlarge.webp" classes="hidden md:flex relative w-full h-full" />
+        <Img src="/abstractbgmobile.webp" classes="md:hidden relative w-full h-full z-[100]"/>
       </div>
     
       <div

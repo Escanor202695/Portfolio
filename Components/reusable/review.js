@@ -23,7 +23,7 @@ function review({ name, src, feedback }) {
       </div>
       <div className='absolute top-0 left-20 -translate-x-1/2 -translate-y-1/3'>
         <Img
-          src="/quotation.png"
+          src="/quotation.webp"
           classes="relative w-[5rem] h-[5rem] md:w-[8vw] md:h-[8vw] opacity-60"
         />
       </div>

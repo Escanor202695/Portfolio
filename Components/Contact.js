@@ -12,7 +12,7 @@ function Contact(props) {
      bg-gradient-to-tr to-[#62ddd7] from-[#111414] z-10"
     >
       <div className="absolute h-full w-full top-0 left-0">
-        <Img src="/contactbg.png" classes="relative w-full h-full" />
+        <Img src="/contactbg.webp" classes="relative w-full h-full" />
       </div>
       <div className="w-[100vw] h-full absolute left-0 top-0 bg-gradient-to-r from-[rgba(0,0,0,.9)] to-[rgba(0,0,0,.4)] -z-10"></div>
       <div className="flex justify-between w-full">

@@ -21,7 +21,7 @@ function About() {
           data-aos-once="true"
         >
           <Img
-            src="/profilenew.png"
+            src="/profilenew.webp"
             classes="relative h-[20vw] w-[20vw] overflow-hidden"
           />
         </div>

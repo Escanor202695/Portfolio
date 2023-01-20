@@ -17,7 +17,7 @@ function Intro(props) {
       <div
         className="w-full h-full bg-cover text-transparent bg-center"
         style={{
-          backgroundImage: "url('/bg4.jpg')",
+          backgroundImage: "url('/bg4.webp')",
         }}
       ></div>
       <div

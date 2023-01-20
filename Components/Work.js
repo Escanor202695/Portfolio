@@ -15,25 +15,29 @@ import {
 
 const work = [
   {
-    src: "/amado.png",
+    src: "/amado.webp",
     link: "https://amado-ecommerce.netlify.app",
   },
   {
-    src: "/jevelin.png",
+    src: "/jevelin.webp",
     link: "https://burgerzilla.netlify.app",
   },
   {
-    src: "/razer.png",
+    src: "/razer.webp",
     link: "https://razor-clone-007.netlify.app",
   },
   {
-    src: "/lawncare.png",
+    src: "/lawncare.webp",
     link: "https://lawncare007.netlify.app",
   },
   {
-    src: "/disney.png",
+    src: "/disney.webp",
     link: "https://disney-plus-clone007.netlify.app",
   },
+  {
+    src:"/amlin.webp",
+    link:"https://amlinskin.com",
+  }
 ];
 
 const Work = () => {
@@ -90,7 +94,7 @@ const Work = () => {
                   layout="fill"
                   alt="Image"
                   priority
-                  blurDataURL="/disney.png"
+                  blurDataURL="/disney.webp"
                   placeholder="blur"
                   className="md:rounded-md"
                 />

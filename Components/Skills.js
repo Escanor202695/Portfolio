@@ -7,8 +7,8 @@ function Skills(props) {
     <div className="skills w-100 flex flex-col items-center relative overflow-hidden text-white 
     bg-gradient-to-tr to-[#62ddd7] from-[#111414]">
       <div className="absolute h-full w-full top-0 left-0">
-        <Img src="/abstractbg.png" classes="hidden md:flex relative w-full h-full opacity-70"/>
-        <Img src="/abstractbgmobile.png" classes="md:hidden relative w-full h-full z-[100]"/>
+        <Img src="/abstractbg.webp" classes="hidden md:flex relative w-full h-full opacity-70"/>
+        <Img src="/abstractbgmobile.webp" classes="md:hidden relative w-full h-full z-[100]"/>
       </div>
       <div className="w-[100vw] h-full absolute bg-gradient-to-b from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,.4)]"></div>
       <div
