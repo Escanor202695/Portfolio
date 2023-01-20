@@ -16,19 +16,19 @@ import {
 
 const feedbacks = [
   {
-    src: "/1.jpeg",
+    src: "/1.webp",
     name: "Be Kind",
     feedback:
       "Fantastic work by Sakib. He delivered a great portfolio website within 1 day. Will definitely work with him again!",
   },
   {
-    src: "/2.jpeg",
+    src: "/2.webp",
     name: "Jordi Garreta",
     feedback:
       "Quick understanding the tasks, and quick and effective completing them",
   },
   {
-    src: "/3.jpeg",
+    src: "/3.webp",
     name: "Sharmad Hadi",
     feedback:
       "Sakib is a excellent dev, who works fast and has great skills. Needed a small page done, and the work he did was awesome. Would definately hire again, and he is one hundred percent recommended!",

@@ -33,7 +33,7 @@ function About() {
             data-aos-once="true"
           >
             <Img
-              src="/profile.jpeg"
+              src="/profile.webp"
               classes="relative md:hidden w-[16vw] h-[16vw] mr-4 rounded-full overflow-hidden"
             />
             <p className="text-[7vw] md:text-[3.5vw] text-theme w-[65vw] leading-none md:pr-[4vw] drop-shadow-sm">
