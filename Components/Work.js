@@ -93,8 +93,7 @@ const Work = () => {
                   src={w.src}
                   layout="fill"
                   alt="Image"
-                  blurDataURL="/disney.webp"
-                  placeholder="blur"
+              
                   className="md:rounded-md"
                   loading="lazy"
                 />

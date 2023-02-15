@@ -8,8 +8,6 @@ function Img({ src, classes,priority }) {
         src={src}
         alt="img"
         layout="fill"
-        placeholder="blur"
-        blurDataURL={src}
         objectFit="cover"
         loading="lazy"
       />
