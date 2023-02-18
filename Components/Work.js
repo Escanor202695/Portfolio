@@ -31,8 +31,8 @@ const work = [
     link: "https://lawncare007.netlify.app",
   },
   {
-    src: "/disney.webp",
-    link: "https://disney-plus-clone007.netlify.app",
+    src: "/go.png",
+    link: "https://golearningbd.com",
   },
   {
     src:"/amlin.webp",
