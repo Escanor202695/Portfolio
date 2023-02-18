@@ -19,6 +19,14 @@ const work = [
     link: "https://amado-ecommerce.netlify.app",
   },
   {
+    src: "/insta.png",
+    link: "https://instaquirk.agency",
+  },
+  {
+    src: "/crantech.png",
+    link: "https://crantech.xyz",
+  },
+  {
     src: "/jevelin.webp",
     link: "https://burgerzilla.netlify.app",
   },
