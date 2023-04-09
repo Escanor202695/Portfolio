@@ -39,10 +39,6 @@ const work = [
     link: "https://lawncare007.netlify.app",
   },
   {
-    src: "/go.png",
-    link: "https://golearningbd.com",
-  },
-  {
     src:"/amlin.webp",
     link:"https://amlinskin.com",
   }
