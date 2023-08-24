@@ -16,6 +16,20 @@ import {
 
 const feedbacks = [
   {
+    src: "/jp.png",
+    name: "JP Lansink",
+    feedback: `He truly went above and beyond to
+       deliver an outstanding website for my business. Sakib's attention to detail and coding skills were impressive.
+         The end result was absolutely fantastic! I highly recommend Sakib for his professionalism, expertise,
+          and dedication to client satisfaction.`,
+  },
+  {
+    src: "/jafir.png",
+    name: "Muktadirul Islam",
+    feedback:
+      "If you are looking for prompt support and smart compliance with your guidance, I believe you can get it here. My wishes are for the team for their future endeavors!",
+  },
+  {
     src: "/1.webp",
     name: "Be Kind",
     feedback:

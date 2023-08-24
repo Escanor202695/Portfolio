@@ -15,13 +15,17 @@ import {
 
 const work = [
   {
+    src: "/asholproperty.png",
+    link: "https://asholproperty.com",
+  },
+  {
     src: "/amado.webp",
     link: "https://amado-ecommerce.netlify.app",
   },
-  {
-    src: "/insta.png",
-    link: "https://instaquirk.agency",
-  },
+  // {
+  //   src: "/insta.png",
+  //   link: "https://instaquirk.agency",
+  // },
   {
     src: "/crantech.png",
     link: "https://crantech.xyz",

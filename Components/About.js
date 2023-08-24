@@ -46,7 +46,7 @@ function About() {
             data-aos-duration="750"
             data-aos-once="true"
           >
-            Been working as a frontend developer for almost 2.5+ years, aiming
+            Been working as a frontend developer for almost 3.5+ years, aiming
             to build highly scalable, efficient, well-documented websites so
             that it is easy to maintain. <br></br>
             <br></br>I love new ideas and am ready to accept challenges.
