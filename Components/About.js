@@ -41,15 +41,20 @@ function About() {
             </p>
           </div>
           <p
-            className="text-lg mt-5 md:text-[1.5vw] md:leading-[2vw] drop-shadow-sm"
+            className="text-lg mt-5 md:text-[1.3vw] md:leading-[2vw] drop-shadow-sm"
             data-aos="zoom-in-right"
             data-aos-duration="750"
             data-aos-once="true"
           >
-            Been working as a frontend developer for almost 3.5+ years, aiming
-            to build highly scalable, efficient, well-documented websites so
-            that it is easy to maintain. <br></br>
-            <br></br>I love new ideas and am ready to accept challenges.
+            In the realm of frontend, I&rsquo;ve journeyed for over <span className="border-[#26514F] text-2xl bg-gradient-to-r from-[#63e352] to-[#1e825d] text-transparent bg-clip-text">3.5 years</span>,
+            crafting websites that seamlessly weave scalability, efficiency, and
+            meticulous documentation.
+            <br />
+            <br />
+            And here&rsquo;s the spellbinding twist – I&rsquo;m not just a
+            developer; I&rsquo;m a digital sorcerer, casting code to create
+            wonders. Fueled by curiosity and unafraid of challenges, I&rsquo;m
+            here to shape your digital dreams into awe-inspiring realities.
           </p>
         </div>
       </div>

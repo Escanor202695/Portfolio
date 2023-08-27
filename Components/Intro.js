@@ -10,7 +10,6 @@ function Intro(props) {
   const handleMenu = () => {
     if (menu == "12rem") setMenu("0rem");
     else setMenu("12rem");
-    console.log(menu);
   };
   return (
     <div className="relative w-100 h-[30rem] md:h-[55vw] 2xl:h-[50vw]">

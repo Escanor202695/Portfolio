@@ -29,7 +29,7 @@ function review({ name, src, feedback }) {
       </div>
 
       <div
-        className="italic text-white md:text-[1.1vw] text-sm z-10
+        className="italic text-white md:text-[1vw] text-sm z-10
        drop-shadow-xl shadow-black md:leading-[1.5vw] text-center tracking-wide"
       >
         {`"${feedback}"`}
