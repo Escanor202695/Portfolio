@@ -32,7 +32,7 @@ const serviceList = [
     ),
   },
   {
-    title: "Wordpress Development",
+    title: "Wordpress",
     description: "Get professional looking website built with wordpress",
     icon: (
       <MailIcon className="w-7 h-7 md:w-[4vw] md:h-[4vw] mb-[.75vw] md:text-theme stroke-[.12rem] md:md:stroke-[.1vw] drop-shadow-sm shadow-theme" />
