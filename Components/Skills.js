@@ -30,7 +30,7 @@ function Skills(props) {
         <div className="flex-[.45]">
           <Skill title="Bootstrap / Tailwind Css" score="90" />
           <Skill title="Material UI / Antd pro" score="85" />
-          <Skill title="Git / Github" score="80" />
+          <Skill title="Wordpress / Elementor / WooCommerce" score="80" />
           <Skill title="Figma / Adobe XD / Adobe AI" score="75" />
         </div>
       </div>
