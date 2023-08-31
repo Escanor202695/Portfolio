@@ -23,12 +23,12 @@ const work = [
     link: "https://amado-ecommerce.netlify.app",
   },
   {
-    src: "/konica.png",
-    link: "https://konicacorporation.com",
+    src: "/amlin.webp",
+    link: "https://amlinskin.com",
   },
   {
     src: "/crantech.png",
-    link: "https://crantech.xyz",
+    link: "https://crantechllc.com",
   },
   {
     src: "/jevelin.webp",
@@ -43,9 +43,9 @@ const work = [
     link: "https://lawncare007.netlify.app",
   },
   {
-    src:"/amlin.webp",
-    link:"https://amlinskin.com",
-  }
+    src: "/konica.png",
+    link: "https://konicacorporation.com",
+  },
 ];
 
 const Work = () => {
@@ -101,7 +101,6 @@ const Work = () => {
                   src={w.src}
                   layout="fill"
                   alt="Image"
-              
                   className="md:rounded-md"
                   loading="lazy"
                 />
