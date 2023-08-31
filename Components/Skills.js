@@ -23,7 +23,7 @@ function Skills(props) {
       <div className="flex flex-col md:flex-row md:mb-[3vw] px-[5vw] w-full justify-center">
         <div className="yo flex-[.45]">
           <Skill title="Html - CSS" score="90" />
-          <Skill title="JavaScript" score="85" />
+          <Skill title="JavaScript / TypeScript" score="85" />
           <Skill title="React / Next.js" score="90" />
           <Skill title="Redux" score="85" />
         </div>

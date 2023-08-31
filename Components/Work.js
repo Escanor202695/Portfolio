@@ -22,10 +22,10 @@ const work = [
     src: "/amado.webp",
     link: "https://amado-ecommerce.netlify.app",
   },
-  // {
-  //   src: "/insta.png",
-  //   link: "https://instaquirk.agency",
-  // },
+  {
+    src: "/konica.png",
+    link: "https://konicacorporation.com",
+  },
   {
     src: "/crantech.png",
     link: "https://crantech.xyz",

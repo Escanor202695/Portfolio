@@ -46,10 +46,12 @@ function About() {
             data-aos-duration="750"
             data-aos-once="true"
           >
-            In the realm of frontend, I&rsquo;ve journeyed for over <span className="border-[#26514F] text-2xl bg-gradient-to-r from-[#63e352] to-[#1e825d] text-transparent bg-clip-text">3.5 years</span>,
-            crafting websites that seamlessly weave scalability, efficiency, and
-            meticulous documentation.
-            <br />
+            In the realm of frontend, I&rsquo;ve journeyed for over{" "}
+            <span className="border-[#26514F] text-2xl bg-gradient-to-r from-[#63e352] to-[#1e825d] text-transparent bg-clip-text">
+              3.5 years
+            </span>
+            , crafting websites that seamlessly weave scalability, efficiency,
+            and meticulous documentation.
             <br />
             And here&rsquo;s the spellbinding twist – I&rsquo;m not just a
             developer; I&rsquo;m a digital sorcerer, casting code to create

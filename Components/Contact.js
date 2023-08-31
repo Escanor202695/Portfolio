@@ -39,10 +39,6 @@ function Contact(props) {
               <WhatsAppIcon />
               <div>+8801517310359</div>
             </div>
-            <div className="flex space-x-2 md:space-x-4  mb-2">
-              <TelegramIcon />
-              <div>+8801517310359</div>
-            </div>
             <div className="flex space-x-2 md:space-x-4 z-[1000]">
               <LinkedInIcon />
               <a
