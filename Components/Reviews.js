@@ -24,6 +24,11 @@ const feedbacks = [
           and dedication to client satisfaction.`,
   },
   {
+    src: "/varnit.png",
+    name: "Varnit Garg",
+    feedback: `I had a great experience with Sakib. Super quick, delivered quality work on time, and even went the extra mile to sort out issues. Definitely recommend and would work with him again!`,
+  },
+  {
     src: "/jafir.png",
     name: "Muktadirul Islam",
     feedback:

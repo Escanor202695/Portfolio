@@ -15,10 +15,6 @@ import {
 
 const work = [
   {
-    src: "/asholproperty.png",
-    link: "https://asholproperty.com",
-  },
-  {
     src: "/amado.webp",
     link: "https://amado-ecommerce.netlify.app",
   },
