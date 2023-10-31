@@ -13,6 +13,7 @@ import {
   Pagination,
 } from "swiper";
 
+
 const work = [
   {
     src: "/amado.webp",
