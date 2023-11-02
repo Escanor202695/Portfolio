@@ -8,6 +8,7 @@ import Skills from "../Components/Skills";
 import Services from "../Components/Services";
 import Reviews from "../Components/Reviews";
 import Contact from "../Components/Contact";
+import Clients from '../Components/Clients';
 import "aos/dist/aos.css";
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
 
       <main className="main">
         <Intro />
+        <Clients/>
         <About />
         <Skills/>
         <Work />

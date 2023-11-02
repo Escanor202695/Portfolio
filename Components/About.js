@@ -46,17 +46,18 @@ function About() {
             data-aos-duration="750"
             data-aos-once="true"
           >
-            In the realm of frontend, I&rsquo;ve journeyed for over{" "}
+            Been working as a front-end developer for over the past{" "}
             <span className="border-[#26514F] text-2xl bg-gradient-to-r from-[#63e352] to-[#1e825d] text-transparent bg-clip-text">
-              3.5 years
+              4 years
             </span>
-            , crafting websites that seamlessly weave scalability, efficiency,
-            and meticulous documentation.
-            <br />
-            And here&rsquo;s the spellbinding twist – I&rsquo;m not just a
-            developer; I&rsquo;m a digital sorcerer, casting code to create
-            wonders. Fueled by curiosity and unafraid of challenges, I&rsquo;m
-            here to shape your digital dreams into awe-inspiring realities.
+            . Over these years, I've had the opportunity to work with many
+            businesses, especially startups, and assist them in establishing a
+            robust online presence, and I'm confident in my ability to do the
+            same for you. <br />
+            <br />I don't see myself as just a developer but rather as a
+            collaborator in helping you achieve your goal. Imagine the
+            possibilities for your business with someone like me in your corner
+            – together, we can make those dreams come true.
           </p>
         </div>
       </div>
