@@ -12,7 +12,7 @@ import {
 } from "@heroicons/react/outline";
 const serviceList = [
   {
-    title: "Frontend Development",
+    title: "Fullstack Development",
     description: "Get high performing frontend for your website",
     icon: (
       <CodeIcon className="w-7 h-7 md:w-[4vw] md:h-[4vw] mb-[.75vw] md:text-theme stroke-[.12rem] md:md:stroke-[.1vw] drop-shadow-sm shadow-theme" />
@@ -33,8 +33,8 @@ const serviceList = [
     ),
   },
   {
-    title: "Wordpress",
-    description: "Get professional looking website built with wordpress",
+    title: "Wordpress & Woocommerce Development",
+    description: "Get professional looking website built with wordpress CMS",
     icon: (
       
       <CubeIcon className="w-7 h-7 md:w-[4vw] md:h-[4vw] mb-[.75vw] md:text-theme stroke-[.12rem] md:md:stroke-[.1vw] drop-shadow-sm shadow-theme" />
@@ -48,7 +48,7 @@ const serviceList = [
     ),
   },
   {
-    title: "Figma To HTML",
+    title: "Figma To React/Wordpress",
     description: "Get pixel-perfect website from any design reference ",
     icon: (
       <PhotographIcon className="w-7 h-7 md:w-[4vw] md:h-[4vw] mb-[.75vw] md:text-theme stroke-[.12rem] md:md:stroke-[.1vw] drop-shadow-sm shadow-theme" />

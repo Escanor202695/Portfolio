@@ -67,7 +67,7 @@ function Contact(props) {
             data-aos-once="true"
             data-aos-delay="500"
           >
-            Frontend Developer & UX/UI designer
+            Fullstack Developer
           </div>
         </div>
       </div>

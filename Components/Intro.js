@@ -67,7 +67,7 @@ function Intro(props) {
             {" "}
             I&apos;m a
             <span className="text-theme drop-shadow-md">
-              &nbsp;frontend&nbsp;
+              &nbsp;Fullstack&nbsp;
             </span>
             developer
           </div>
