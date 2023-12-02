@@ -47,7 +47,7 @@ function About() {
             data-aos-once="true"
           >
             Been working as a fullstack MERN & wordpress developer for over the past{" "}
-            <span className="border-[#26514F] text-2xl bg-gradient-to-r from-[#63e352] to-[#1e825d] text-transparent bg-clip-text">
+            <span className="border-[#26514F] font-extrabold text-black bg-clip-text">
               4 years
             </span>
             . Over these years, I've had the opportunity to work with many

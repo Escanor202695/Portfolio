@@ -24,14 +24,15 @@ function Skills(props) {
         <div className="yo flex-[.45]">
           <Skill title="Html - CSS" score="90" />
           <Skill title="JavaScript / TypeScript" score="85" />
+          <Skill title="Wordpress / Elementor / WooCommerce" score="90" />
           <Skill title="React / Next.js" score="90" />
-          <Skill title="Redux" score="85" />
+
         </div>
         <div className="flex-[.45]">
           <Skill title="Bootstrap / Tailwind Css" score="90" />
           <Skill title="Material UI / Antd pro" score="85" />
-          <Skill title="Wordpress / Elementor / WooCommerce" score="80" />
-          <Skill title="Figma / Adobe XD / Adobe AI" score="75" />
+          <Skill title="Node.js / Express.js" score="85" />
+          <Skill title="Figma / Adobe XD / Adobe Illustrator" score="70" />
         </div>
       </div>
       <div className="mb-12 md:mb-[3vw]"></div>
