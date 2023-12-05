@@ -50,6 +50,7 @@ function About() {
             <span className="border-[#26514F] font-extrabold text-black bg-clip-text">
               4 years
             </span>
+            
             . Over these years, I&apos;ve had the opportunity to work with many
             businesses, especially startups, and assist them in establishing a
             robust online presence, and I&apos;m confident in my ability to do the
