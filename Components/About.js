@@ -50,11 +50,11 @@ function About() {
             <span className="border-[#26514F] font-extrabold text-black bg-clip-text">
               4 years
             </span>
-            . Over these years, I've had the opportunity to work with many
+            . Over these years, I&apos;ve had the opportunity to work with many
             businesses, especially startups, and assist them in establishing a
-            robust online presence, and I'm confident in my ability to do the
+            robust online presence, and I&apos;m confident in my ability to do the
             same for you. <br />
-            <br />I don't see myself as just a developer but rather as a
+            <br />I don&apos;t see myself as just a developer but rather as a
             collaborator in helping you achieve your goal. Imagine the
             possibilities for your business with someone like me in your corner
             – together, we can make those dreams come true.
