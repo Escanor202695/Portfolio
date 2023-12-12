@@ -13,14 +13,14 @@ import LoadingScreen from "../Components/loadingScreen"; // Import your loading 
 import "aos/dist/aos.css";
 
 export default function Home() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState("block");
 
   useEffect(() => {
     const initializeAOS = async () => {
-      await AOS.init();
       // Simulate a 1-second loading delay
-      setTimeout(() => {
-        setLoading(false);
+      setTimeout(async () => {
+        await AOS.init();
+        setLoading("none");
       }, 2000);
     };
 
@@ -28,26 +28,26 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="overflow-hidden">
+    <div className={`overflow-hidden ${loading ? "loading" : ""}`}>
       <Head>
         <title>Sakib Chowdhury</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      {loading ? (
-        <LoadingScreen /> // Render your loading screen component
-      ) : (
-        <main className="main">
-          <Intro />
-          <Clients />
-          <About />
-          <Skills />
-          <Work />
-          <Services />
-          <Reviews />
-          <Contact />
-        </main>
-      )}
+      <div style={{ display: loading }}>
+        <LoadingScreen />
+      </div>
+
+      <main className="main">
+        <Intro />
+        <Clients />
+        <About />
+        <Skills />
+        <Work />
+        <Services />
+        <Reviews />
+        <Contact />
+      </main>
     </div>
   );
 }
