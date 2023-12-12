@@ -68,7 +68,7 @@ function service({ index }) {
         data-aos-once="true"
       >
         {service.icon}
-        <div className="text-[1.75vw] mt-[.5vw] mb-[1vw] font-semibold">
+        <div className="text-[1.5vw] mt-[.5vw] mb-[1vw] font-semibold text-center">
           {service.title}
         </div>
         <div className="w-100 text-center text-gray-600 text-[1.1vw]">
