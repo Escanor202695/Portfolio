@@ -13,11 +13,10 @@ import {
   Pagination,
 } from "swiper";
 
-
 const work = [
   {
-    src: "/amado.webp",
-    link: "https://amado-ecommerce.netlify.app",
+    src: "/crantech.png",
+    link: "https://crantechllc.com",
   },
   {
     src: "/software-district.png",
@@ -28,8 +27,8 @@ const work = [
     link: "https://smithav.com/home/",
   },
   {
-    src: "/crantech.png",
-    link: "https://crantechllc.com",
+    src: "/amado.webp",
+    link: "https://amado-ecommerce.netlify.app",
   },
   {
     src: "/jevelin.webp",
