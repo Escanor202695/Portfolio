@@ -35,9 +35,20 @@ const feedbacks = [
       "If you are looking for prompt support and smart compliance with your guidance, I believe you can get it here. My wishes are for the team for their future endeavors!",
   },
   {
-    name: "Upwork Client",
+    name: "Matteo",
     feedback:
-      "Fantastic work by Sakib. He delivered a great portfolio website within 1 day. Will definitely work with him again!",
+      `Outstanding web developer! Your attention to detail and coding skills are top-notch. Thanks to your expertise, our website now runs smoothly and looks fantastic. Keep up the great work!`,
+  },
+  {
+    name: "Norah F.",
+    feedback:
+      `I had the pleasure of working with Mr. Sakib and his performance has been nothing short of exceptional.
+      He exhibits a deep understanding of web development and consistently delivers high-quality and well-structured website.`,
+  },
+  {
+    name: "Bikash Singh",
+    feedback:
+      `Sakib delivered good work on this web design project and I enjoyed working with him. His communication was top-notch, he met all deadlines, and his skills were reasonably strong. I enjoyed working with Sakib and will likely have additional jobs for him in the future.`,
   },
   {
     name: "Jordi Garreta",

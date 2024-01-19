@@ -20,8 +20,12 @@ const work = [
     link: "https://amado-ecommerce.netlify.app",
   },
   {
-    src: "/amlin.webp",
-    link: "https://amlinskin.com",
+    src: "/software-district.png",
+    link: "https://software-district.netlify.app/",
+  },
+  {
+    src: "/smith-av.png",
+    link: "https://smithav.com/home/",
   },
   {
     src: "/crantech.png",
@@ -32,16 +36,8 @@ const work = [
     link: "https://burgerzilla.netlify.app",
   },
   {
-    src: "/razer.webp",
-    link: "https://razor-clone-007.netlify.app",
-  },
-  {
     src: "/lawncare.webp",
     link: "https://lawncare007.netlify.app",
-  },
-  {
-    src: "/konica.png",
-    link: "https://konicacorporation.com",
   },
 ];
 
