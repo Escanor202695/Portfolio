@@ -22,10 +22,10 @@ const work = [
     src: "/software-district.png",
     link: "https://software-district.netlify.app/",
   },
-  {
-    src: "/smith-av.png",
-    link: "https://smithav.com/home/",
-  },
+  // {
+  //   src: "/smith-av.png",
+  //   link: "https://smithav.com/home/",
+  // },
   {
     src: "/amado.webp",
     link: "https://amado-ecommerce.netlify.app",
